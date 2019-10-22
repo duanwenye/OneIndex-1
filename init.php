@@ -145,7 +145,7 @@ function get_absolute_path($path) {
 }
 
 !defined('CONTROLLER_PATH') && define('CONTROLLER_PATH', ROOT.'controller/');
-onedrive::$client_id = config('b8161002-0df1-4f8f-b2a6-cd9a62e8d5d2');
-onedrive::$client_secret = config('gmySEKG39837%ezrfJFR-${');
-onedrive::$redirect_uri = config('https://oneindex.github.io/');
+onedrive::$client_id = 'b8161002-0df1-4f8f-b2a6-cd9a62e8d5d2';
+onedrive::$client_secret = 'gmySEKG39837%ezrfJFR-${';
+onedrive::$redirect_uri = 'https://oneindex.github.io/';
 oneindex::check_refresh_config();
